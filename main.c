@@ -6,6 +6,7 @@
 #include <util/delay.h>
 #include <stdbool.h>
 //Öyvind says HI!
+//Arash hi
 #define PINNE_A0 0
 
 
