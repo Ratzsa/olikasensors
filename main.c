@@ -5,7 +5,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include <stdbool.h>
-//Öyvind says HI!
+//Öyvind HI!
 //Arash hi
 #define PINNE_A0 0
 
