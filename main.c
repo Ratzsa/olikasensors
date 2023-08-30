@@ -7,6 +7,7 @@
 #include <stdbool.h>
 //Öyvind says HI!
 //Arash hi
+// sammmmmmmmaa
 #define PINNE_A0 0
 
 
