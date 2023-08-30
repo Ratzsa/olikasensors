@@ -23,16 +23,16 @@ int main(){
   uint16_t humidity_int = 0;
 
   _delay_ms(2000);
-	while(true){  
+	while(true){
 
     DHT_Status status = DHT_Get(&temperature_int, &humidity_int) ;
     if (status == DHT_Status_Ok) {
-			
-			printf("%d\n", humidity_int);
-				printf("%d\n", temperature_int);
+
+			printf("Humidity: %d.%d%%\n", (humidity_int / 10), (humidity_int % 10));
+			printf("Temperature: %d.%dC\n", (temperature_int / 10), (temperature_int % 10));
 	}
     else printf("ERROR %d\n",status);
-	_delay_ms(2000); 
+	_delay_ms(2000);
   }
 
 	return 0;
